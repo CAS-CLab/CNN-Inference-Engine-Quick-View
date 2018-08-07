@@ -1,6 +1,9 @@
 # CNN-Inference-Engine-Quick-View
 A quick view of high-performance convolution neural networks (CNNs) inference engines.
 
+### Runtime-speed Comparsions
+[Mobile-AI-Benckmarks](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
+
 ### FLOAT32-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
@@ -12,6 +15,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [TensorRT](https://devblogs.nvidia.com/tensorrt-3-faster-tensorflow-inference/) | GPU (**Volta** optimized) | Caffe / Tensorflow / onnx  | Y | [Link](http://on-demand.gputechconf.com/gtc-eu/2017/presentation/23425-han-vanholder-efficient-inference-with-tensorrt.pdf)
 | [TVM](https://github.com/dmlc/tvm) | CPU (**ARM** optimized) / Mali GPU / FPGA | onnx  | Y | -
 | [SNPE](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) | CPU (**Qualcomm** optimized) / GPU / DSP | Caffe / Caffe2 / Tensorflow/ onnx  | Y | [Link](https://developer.qualcomm.com/docs/snpe/benchmarking.html#benchmarking_overview)
+| [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) | Tensorflow/ onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
 
 ### INT8-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
@@ -34,5 +38,4 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [BMXNET](https://github.com/hpi-xnor/BMXNet) | CPU (ARM / x86) / GPU | mxnet | Y | [Link](https://arxiv.org/abs/1705.09864)
 | [Espresso](https://github.com/fpeder/espresso) | GPU | - | N | [Link](https://arxiv.org/abs/1705.09864)
 | [BNN-PYNQ](https://github.com/Xilinx/BNN-PYNQ) | FPGA (Xilinx PYNQ) | - | N | [Link](https://openreview.net/forum?id=Sk6fD5yCb)
-
 
