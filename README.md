@@ -50,5 +50,7 @@ NCNN** | 150.95 | 90.79 | 232.31 | 231.64
 Tengine | **120.07** | **65.42** | - | -
 
 *: optimized for Cortex-A53 instead of Cortex-A72
+
 **: powersave=0
 
+For 1 Thread, we set task on a single A72, and A72 x 2 for 2 Threads.  
