@@ -39,3 +39,16 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [Espresso](https://github.com/fpeder/espresso) | GPU | - | N | [Link](https://arxiv.org/abs/1705.09864)
 | [BNN-PYNQ](https://github.com/Xilinx/BNN-PYNQ) | FPGA (Xilinx PYNQ) | - | N | [Link](https://openreview.net/forum?id=Sk6fD5yCb)
 
+### MobileNet-v1 Speed Benchmarks on RK3399
+Rockchip RK3399 (Cortex-A72 1.8GHz x 2 + Cortex-A53 1.5GHz x 4):
+
+Framework (ms) | 1 Thread  | 2 Threads | 3 Threads | 4 Threads
+------------ | ------------- | ------------ | ------------- | ----------
+Caffe+OpenBLAS* | 250.57 | 204.40 | 248.65 | 230.20
+FeatherCNN | 205.76 | 135.17 | **183.34** | **194.67**
+NCNN** | 150.95 | 90.79 | 232.31 | 231.64
+Tengine | **120.07** | **65.42** | - | -
+
+*: optimized for Cortex-A53 instead of Cortex-A72
+**: powersave=0
+
