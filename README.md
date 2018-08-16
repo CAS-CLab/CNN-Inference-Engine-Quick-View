@@ -50,7 +50,8 @@ Framework (ms) | 1 Thread  | 2 Threads | 3 Threads | 4 Threads
 Caffe+OpenBLAS* | 250.57 | 204.40 | 248.65 | 230.20
 FeatherCNN | 205.76 | 135.17 | **183.34** | **194.67**
 NCNN** | 150.95 | 90.79 | 232.31 | 231.64
-Tengine | **120.07** | **65.42** | - | -
+Tengine | **122.10** | **65.42** | - | -
+Tengine-Opt | **119.88** | **63.94** | - | -
 
 *: optimized for Cortex-A53 instead of Cortex-A72
 
