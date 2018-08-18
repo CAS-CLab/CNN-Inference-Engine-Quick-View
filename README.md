@@ -17,6 +17,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [SNPE](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) | CPU (**Qualcomm** optimized) / GPU / DSP | Caffe / Caffe2 / Tensorflow/ onnx  | Y | [Link](https://developer.qualcomm.com/docs/snpe/benchmarking.html#benchmarking_overview)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
 | [In-Prestissimo](https://github.com/in66-dev/In-Prestissimo) | CPU (**ARM** optimized) | Caffe  | N | [Link](https://github.com/in66-dev/In-Prestissimo)
+| [Paddle-Mobile](https://github.com/PaddlePaddle/paddle-mobile) | CPU (**ARM** optimized) / Mali GPU / FPGA | Paddle / Caffe / onnx | Y| -
 
 ### INT8-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
@@ -29,6 +30,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [SNPE](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) | DSP (Quantized DLC) | Caffe / Caffe2 / Tensorflow/ onnx  | Y | [Link](https://developer.qualcomm.com/docs/snpe/benchmarking.html#benchmarking_overview)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
 | [In-Prestissimo](https://github.com/in66-dev/In-Prestissimo) | CPU (**ARM** optimized) | Caffe  | N | [Link](https://github.com/in66-dev/In-Prestissimo)
+| [Paddle-Mobile](https://github.com/PaddlePaddle/paddle-mobile) | CPU (**ARM** optimized) / Mali GPU / FPGA | Paddle / Caffe / onnx | Y| -
 
 ### TERNARY-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
