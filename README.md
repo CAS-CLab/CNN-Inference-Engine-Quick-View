@@ -10,6 +10,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [Intel-Caffe](https://github.com/intel/caffe) | CPU (**Intel** optimized) | Caffe | Y | [Link](https://github.com/intel/caffe/wiki/INTEL%C2%AE-OPTIMIZED-CAFFE-PERFORMANCE-AND-CONVERGENCE)
 | [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) | Caffe / pytorch / mxnet / onnx | Y | [Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
 | [FeatherCNN](https://github.com/Tencent/FeatherCNN) | CPU (**ARM** optimized) | Caffe | N | [Link](https://github.com/Tencent/FeatherCNN/wiki/Benchmarks) / [unofficial Link](https://www.zhihu.com/question/276372408)
+| [FeatherCNNEx](https://github.com/tianylijun/FeatherCNNEx) | CPU (**ARM** optimized) | Caffe | N | [Link](https://github.com/tianylijun/FeatherCNNEx/tree/master/benchmark)
 | [Tengine](https://github.com/OAID/Tengine) | CPU (**ARM A72** optimized) | Caffe / mxnet  | Y | [Link](https://github.com/OAID/Tengine/blob/master/doc/benchmark.md)
 | [Tensorflowlite](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite) | CPU (**Android** optimized) | Caffe2 / Tensorflow / onnx  | Y | [Link](https://www.tensorflow.org/mobile/tflite/performance)
 | [TensorRT](https://devblogs.nvidia.com/tensorrt-3-faster-tensorflow-inference/) | GPU (**Volta** optimized) | Caffe / Tensorflow / onnx  | Y | [Link](http://on-demand.gputechconf.com/gtc-eu/2017/presentation/23425-han-vanholder-efficient-inference-with-tensorrt.pdf)
@@ -18,6 +19,13 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
 | [In-Prestissimo](https://github.com/in66-dev/In-Prestissimo) | CPU (**ARM** optimized) | Caffe  | N | [Link](https://github.com/in66-dev/In-Prestissimo)
 | [Paddle-Mobile](https://github.com/PaddlePaddle/paddle-mobile) | CPU (**ARM** optimized) / Mali GPU / FPGA | Paddle / Caffe / onnx | Y| -
+
+
+### FIX16-Support
+| Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
+| :----------- | :------: | :------------: | :------------: | :------------:
+| [FeatherCNNEx](https://github.com/tianylijun/FeatherCNNEx) | CPU (**ARM** optimized) | Caffe | N | [Link](https://github.com/tianylijun/FeatherCNNEx/tree/master/benchmark)
+| [ARM32-SGEMM-LIB](https://github.com/JunLee85/ARM32-SGEMM-LIB) | CPU (**ARM** optimized) | GEMM Library  | N | [Link](https://github.com/JunLee85/ARM32-SGEMM-LIB/wiki)
 
 ### INT8-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
