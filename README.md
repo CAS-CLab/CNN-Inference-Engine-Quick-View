@@ -1,5 +1,5 @@
 # CNN-Inference-Engine-Quick-View
-A quick view of high-performance convolution neural networks (CNNs) inference engines.
+A quick view of high-performance convolution neural networks (CNNs) inference engines on mobile devices.
 
 ### Runtime-speed Comparsions
 [Mobile-AI-Benckmarks](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
