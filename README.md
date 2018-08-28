@@ -60,6 +60,7 @@ Framework (ms) | 1 Thread  | 2 Threads | 3 Threads | 4 Threads
 Caffe+OpenBLAS* | 250.57 | 204.40 | 248.65 | 230.20
 FeatherCNN | 205.76 | 135.17 | **183.34** | **194.67**
 NCNN** | 150.95 | 90.79 | 232.31 | 231.64
+NCNN-Opt | 122.22 | 67.47 | - | -
 Tengine | 122.10 | 65.42 | - | -
 Tengine-Opt | **115.29** | **63.94** | - | -
 
@@ -68,3 +69,14 @@ Tengine-Opt | **115.29** | **63.94** | - | -
 **: powersave=0
 
 For 1 Thread, we set task on a single A72, and A72 x 2 for 2 Threads.  
+
+### ResNet-18 Speed Benchmarks on RK3399
+
+Framework (ms) | 1 Thread  | 2 Threads | 8 Threads
+------------ | ------------- | ------------ | ----------
+NCNN | 340.33 | 211.78 | -
+NCNN-Opt | **332.20** | **206.62**  | **196.97**
+Tengine | 402.57 | 226.02 |  -
+
+
+
