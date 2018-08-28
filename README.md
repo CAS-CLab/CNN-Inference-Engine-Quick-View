@@ -57,16 +57,16 @@ Rockchip RK3399 (Cortex-A72 1.8GHz x 2 + Cortex-A53 1.5GHz x 4):
 
 Framework (ms) | 1 Thread  | 2 Threads | 3 Threads | 4 Threads
 ------------ | ------------- | ------------ | ------------- | ----------
-Caffe+OpenBLAS* | 250.57 | 204.40 | 248.65 | 230.20
+Caffe+OpenBLAS`*` | 250.57 | 204.40 | 248.65 | 230.20
 FeatherCNN | 205.76 | 135.17 | **183.34** | **194.67**
-NCNN** | 150.95 | 90.79 | 232.31 | 231.64
+NCNN`**` | 150.95 | 90.79 | 232.31 | 231.64
 NCNN-Opt | 122.22 | 67.47 | - | -
 Tengine | 122.10 | 65.42 | - | -
 Tengine-Opt | **115.29** | **63.94** | - | -
 
-*: optimized for Cortex-A53 instead of Cortex-A72
+`*`: optimized for Cortex-A53 instead of Cortex-A72
 
-**: powersave=0
+`**`: powersave=0
 
 For 1 Thread, we set task on a single A72, and A72 x 2 for 2 Threads.  
 
