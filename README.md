@@ -74,9 +74,9 @@ For 1 Thread, we set task on a single A72, and A72 x 2 for 2 Threads.
 
 Framework (ms) | 1 Thread  | 2 Threads | 8 Threads
 ------------ | ------------- | ------------ | ----------
-NCNN | 340.33 | 211.78 | -
+NCNN`*` | 340.33 | 211.78 | -
 NCNN-Opt | **332.20** | **206.62**  | **196.97**
 Tengine | 402.57 | 226.02 |  -
 
-
+`*`: Conv-BN-Scale-fused
 
