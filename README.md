@@ -17,7 +17,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [TVM](https://github.com/dmlc/tvm) | CPU (**ARM** optimized) / Mali GPU / FPGA | onnx  | Y | -
 | [SNPE](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) | CPU (**Qualcomm** optimized) / GPU / DSP | Caffe / Caffe2 / Tensorflow/ onnx  | Y | [Link](https://developer.qualcomm.com/docs/snpe/benchmarking.html#benchmarking_overview)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
-| [Easy-MACE](https://github.com/conansherry/easy_mace) | CPU (**ARM** optimized) | Caffe / Tensorflow / onnx  | Y | -
+| [Easy-MACE](https://github.com/conansherry/easy_mace) | CPU (**ARM** optimized) / CPU (**x86** optimized) | Caffe / Tensorflow / onnx  | Y | -
 | [In-Prestissimo](https://github.com/in66-dev/In-Prestissimo) | CPU (**ARM** optimized) | Caffe  | N | [Link](https://github.com/in66-dev/In-Prestissimo)
 | [Paddle-Mobile](https://github.com/PaddlePaddle/paddle-mobile) | CPU (**ARM** optimized) / Mali GPU / FPGA | Paddle / Caffe / onnx | Y| -
 | [Anakin](https://github.com/PaddlePaddle/Anakin) | CPU (**ARM** optimized) / Mali GPU / CPU (**x86** optimized) | Caffe / Fluid | Y| [Link](https://github.com/PaddlePaddle/Anakin/blob/developing/benchmark/README.md)
