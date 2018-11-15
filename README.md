@@ -55,6 +55,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [BMXNET](https://github.com/hpi-xnor/BMXNet) | CPU (ARM / x86) / GPU | mxnet | Y | [Link](https://arxiv.org/abs/1705.09864)
 | [Espresso](https://github.com/fpeder/espresso) | GPU | - | N | [Link](https://arxiv.org/abs/1705.09864)
 | [BNN-PYNQ](https://github.com/Xilinx/BNN-PYNQ) | FPGA (Xilinx PYNQ) | - | N | [Link](https://openreview.net/forum?id=Sk6fD5yCb)
+| [FINN](https://github.com/Xilinx/FINN) | FPGA (Xilinx) | - | N | [Link](https://arxiv.org/abs/1612.07119)
 
 ### MobileNet-v1 Speed Benchmarks on RK3399
 Rockchip RK3399 (Cortex-A72 1.8GHz x 2 + Cortex-A53 1.5GHz x 4):
