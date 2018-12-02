@@ -30,7 +30,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | :----------- | :------: | :------------: | :------------: | :------------:
 | [FeatherCNNEx](https://github.com/tianylijun/FeatherCNNEx) | CPU (**ARM** optimized) | Caffe | N | [Link](https://github.com/tianylijun/FeatherCNNEx/tree/master/benchmark)
 | [ARM32-SGEMM-LIB](https://github.com/JunLee85/ARM32-SGEMM-LIB) | CPU (**ARM** optimized) | GEMM Library  | N | [Link](https://github.com/JunLee85/ARM32-SGEMM-LIB/wiki)
-| [Yolov2-Xilinx-PYNQ](https://github.com/dhm2013724/yolov2_xilinx_fpga) | FPGA (Xilinx) | Yolov2-only | Y | [Link](https://github.com/dhm2013724/yolov2_xilinx_fpga) 
+| [Yolov2-Xilinx-PYNQ](https://github.com/dhm2013724/yolov2_xilinx_fpga) | FPGA (Xilinx PYNQ) | Yolov2-only | Y | [Link](https://github.com/dhm2013724/yolov2_xilinx_fpga) 
 
 ### INT8-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
