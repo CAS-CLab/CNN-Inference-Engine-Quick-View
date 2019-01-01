@@ -2,7 +2,8 @@
 A quick view of high-performance convolution neural networks (CNNs) inference engines on mobile devices.
 
 ### Runtime-speed Comparisons
-[Mobile-AI-Benchmarks](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
+* [Mobile-AI-Benchmarks](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
+* [AI-Benchmarks](http://ai-benchmark.com/index.html)
 
 ### FLOAT32-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
@@ -23,6 +24,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [Anakin](https://github.com/PaddlePaddle/Anakin) | CPU (**ARM** optimized) / GPU / CPU (**x86** optimized) | Caffe / Fluid | Y| [Link](https://github.com/PaddlePaddle/Anakin/blob/developing/benchmark/README.md)
 | [ZQCNN](https://github.com/zuoqing1988/ZQCNN-v0.0) | CPU |  Caffe / mxnet | Y| [Link](https://github.com/zuoqing1988/ZQCNN-v0.0)
 | [ARM-NEON-to-x86-SSE](https://github.com/intel/ARM_NEON_2_x86_SSE) | CPU (**Intel** optimized) | Intrinsics-Level | - | -
+| [Simd](https://github.com/ermig1979/Simd) | CPU (all platform optimized) | Intrinsics-Level | - | -
 
 
 ### FIX16-Support
