@@ -25,6 +25,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [ZQCNN](https://github.com/zuoqing1988/ZQCNN-v0.0) | CPU |  Caffe / mxnet | Y| [Link](https://github.com/zuoqing1988/ZQCNN-v0.0)
 | [ARM-NEON-to-x86-SSE](https://github.com/intel/ARM_NEON_2_x86_SSE) | CPU (**Intel** optimized) | Intrinsics-Level | - | -
 | [Simd](https://github.com/ermig1979/Simd) | CPU (all platform optimized) | Intrinsics-Level | - | -
+| [clDNN](https://github.com/intel/clDNN) |  Intel® Processor Graphics / Iris™ Pro Graphics |  Caffe / Tennsorflow / mxnet / onnx | Y | [Link](https://software.intel.com/en-us/articles/accelerate-deep-learning-inference-with-integrated-intel-processor-graphics-rev-2-0)
 
 
 ### FIX16-Support
