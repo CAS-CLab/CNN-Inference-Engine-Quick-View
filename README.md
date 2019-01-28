@@ -89,5 +89,5 @@ NCNN`*` | 340.33 | 211.78 | -
 NCNN-Opt | **332.20** | **206.62**  | **196.97**
 Tengine | 402.57 | 226.02 |  -
 
-`*`: Conv-BN-Scale-fused
+`*`: [Conv-BN-Scale-fused](https://github.com/HolmesShuan/Caffe-Computation-Graph-Optimization)
 
