@@ -2,8 +2,8 @@
 A quick view of high-performance convolution neural networks (CNNs) inference engines on mobile devices.
 
 ### Runtime-speed Comparisons
-* [Mobile-AI-Benchmarks](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/87212589)
-* [AI-Benchmarks](http://ai-benchmark.com/index.html)
+* [Mobile-AI-Benchmarks](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/221819917)
+* [AI-Benchmarks](http://ai-benchmark.com/ranking_detailed.html)
 
 ### FLOAT32-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
