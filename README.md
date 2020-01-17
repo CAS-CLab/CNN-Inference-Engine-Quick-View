@@ -9,7 +9,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
 | [Intel-Caffe](https://github.com/intel/caffe) | CPU (**Intel** optimized) | Caffe | Y | [Link](https://github.com/intel/caffe/wiki/INTEL%C2%AE-OPTIMIZED-CAFFE-PERFORMANCE-AND-CONVERGENCE)
-| [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) | Caffe / pytorch / mxnet / onnx | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [unofficial Link](https://github.com/BUG1989/ncnn-benchmark)
+| [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) | Caffe / pytorch / mxnet / onnx | Y | [3rd party Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [Official Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2019-6-17.md) 
 | [FeatherCNN](https://github.com/Tencent/FeatherCNN) | CPU (**ARM** optimized) | Caffe | N | [Link](https://github.com/Tencent/FeatherCNN/wiki/Benchmarks) / [unofficial Link](https://www.zhihu.com/question/276372408)
 | [Tngine](https://github.com/OAID/Tengine) | CPU (**ARM A72** optimized) | Caffe / mxnet  | Y | [Link](https://github.com/OAID/Tengine/blob/master/doc/benchmark.md)
