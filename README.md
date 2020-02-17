@@ -48,6 +48,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [In-Prestissimo](https://github.com/in66-dev/In-Prestissimo) | CPU (**ARM** optimized) | Caffe  | N | [Link](https://github.com/in66-dev/In-Prestissimo)
 | [Paddle-Mobile](https://github.com/PaddlePaddle/paddle-mobile) | CPU (**ARM** optimized) / Mali GPU / FPGA | Paddle / Caffe / onnx | Y| -
 | [Anakin](https://github.com/PaddlePaddle/Anakin) | CPU (**ARM** optimized) / GPU / CPU (**x86** optimized) | Caffe / Fluid | Y| [Link](https://github.com/PaddlePaddle/Anakin/blob/developing/benchmark/README.md)
+| [TF2](https://github.com/TF2-Engine/TF2) | FPGA | Caffe / PyTorch / Tensorflow | Y| [Link](https://github.com/TF2-Engine/TF2#runtime-engine)
 
 ### TERNARY-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
