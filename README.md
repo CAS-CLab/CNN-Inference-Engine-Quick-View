@@ -8,7 +8,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 ### FLOAT32-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
-| [Paddle-Light](https://github.com/PaddlePaddle/Paddle-Lite) | CPU (**ARM** optimized) / Mali GPU / FPGA | Paddle / Caffe / onnx | Y| [Link](https://paddlepaddle.github.io/Paddle-Lite/develop/benchmark/)
+| [Paddle-Light](https://github.com/PaddlePaddle/Paddle-Lite) | CPU (**ARM** optimized) / Mali GPU / FPGA / **NPU** | Paddle / Caffe / onnx | Y| [Link](https://paddlepaddle.github.io/Paddle-Lite/develop/benchmark/)
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
 | [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) / Mali GPU | Caffe / pytorch / mxnet / onnx | Y | [3rd party Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [Official Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) / Mali GPU / DSP | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/151820514)
@@ -19,15 +19,11 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [TensorRT](https://devblogs.nvidia.com/tensorrt-3-faster-tensorflow-inference/) | GPU (**Volta** optimized) | Caffe / Tensorflow / onnx  | Y | [Link](http://on-demand.gputechconf.com/gtc-eu/2017/presentation/23425-han-vanholder-efficient-inference-with-tensorrt.pdf)
 | [TVM](https://github.com/dmlc/tvm) | CPU (**ARM** optimized) / Mali GPU / FPGA | onnx  | Y | -
 | [SNPE](https://developer.qualcomm.com/docs/snpe/index.html) | CPU (**Qualcomm** optimized) / GPU / DSP | Caffe / Caffe2 / Tensorflow/ onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
-| [Easy-MACE](https://github.com/conansherry/easy_mace) | CPU (**ARM** optimized) / CPU (**x86** optimized) | Caffe / Tensorflow / onnx  | Y | -
-| [In-Prestissimo](https://github.com/in66-dev/In-Prestissimo) | CPU (**ARM** optimized) | Caffe  | N | [Link](https://github.com/in66-dev/In-Prestissimo)
-| [Anakin](https://github.com/PaddlePaddle/Anakin) | CPU (**ARM** optimized) / GPU / CPU (**x86** optimized) | Caffe / Fluid | Y| [Link](https://github.com/PaddlePaddle/Anakin/blob/developing/benchmark/README.md)
 | [Pocket-Tensor](https://github.com/GValiente/pocket-tensor) | CPU (**ARM**/**x86** optimized) | Keras | N | [Link](https://github.com/GValiente/pocket-tensor)
 | [ZQCNN](https://github.com/zuoqing1988/ZQCNN-v0.0) | CPU |  Caffe / mxnet | Y| [Link](https://github.com/zuoqing1988/ZQCNN-v0.0)
 | [ARM-NEON-to-x86-SSE](https://github.com/intel/ARM_NEON_2_x86_SSE) | CPU (**Intel** optimized) | Intrinsics-Level | - | -
 | [Simd](https://github.com/ermig1979/Simd) | CPU (all platform optimized) | Intrinsics-Level | - | -
 | [clDNN](https://github.com/intel/clDNN) |  Intel® Processor Graphics / Iris™ Pro Graphics |  Caffe / Tennsorflow / mxnet / onnx | Y | [Link](https://software.intel.com/en-us/articles/accelerate-deep-learning-inference-with-integrated-intel-processor-graphics-rev-2-0)
-
 
 ### FIX16-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
@@ -47,8 +43,6 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [Gemmlowp](https://github.com/google/gemmlowp) | CPU (ARM / x86) | GEMM Library  | - | -
 | [SNPE](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) | DSP (Quantized DLC) | Caffe / Caffe2 / Tensorflow/ onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) / Mali GPU / DSP | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
-| [In-Prestissimo](https://github.com/in66-dev/In-Prestissimo) | CPU (**ARM** optimized) | Caffe  | N | [Link](https://github.com/in66-dev/In-Prestissimo)
-| [Anakin](https://github.com/PaddlePaddle/Anakin) | CPU (**ARM** optimized) / GPU / CPU (**x86** optimized) | Caffe / Fluid | Y| [Link](https://github.com/PaddlePaddle/Anakin/blob/developing/benchmark/README.md)
 | [TF2](https://github.com/TF2-Engine/TF2) | FPGA | Caffe / PyTorch / Tensorflow | Y| [Link](https://github.com/TF2-Engine/TF2#runtime-engine)
 
 ### TERNARY-Support
