@@ -12,6 +12,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
 | [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) / Mali GPU | Caffe / pytorch / mxnet / onnx | Y | [3rd party Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [Official Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) / Mali GPU / DSP | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/151820514)
+| [ONNX-Runtime](https://github.com/microsoft/onnxruntime) | CPU / Nvidia GPU | onnx  | Y | -
 | [Intel-Caffe](https://github.com/intel/caffe) | CPU (**Intel** optimized) | Caffe | Y | [Link](https://github.com/intel/caffe/wiki/INTEL%C2%AE-OPTIMIZED-CAFFE-PERFORMANCE-AND-CONVERGENCE)
 | [FeatherCNN](https://github.com/Tencent/FeatherCNN) | CPU (**ARM** optimized) | Caffe | N | [Link](https://github.com/Tencent/FeatherCNN/wiki/Benchmarks) / [unofficial Link](https://www.zhihu.com/question/276372408)
 | [TEngine](https://github.com/OAID/Tengine) | CPU (**ARM A72** optimized) | Caffe / mxnet  | Y | [Link](https://github.com/OAID/Tengine/blob/master/doc/benchmark.md)
@@ -59,6 +60,11 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [BNN-PYNQ](https://github.com/Xilinx/BNN-PYNQ) | FPGA (Xilinx PYNQ) | - | N | [Link](https://openreview.net/forum?id=Sk6fD5yCb)
 | [FINN](https://github.com/Xilinx/FINN) | FPGA (Xilinx) | - | N | [Link](https://arxiv.org/abs/1612.07119)
 
+
+### NLP-Support
+| Framework | Main Platform | Model Compatibility | Speed Benchmarks
+| :----------- | :------: | :------------: | :------------:
+| [TurboTransformers](https://github.com/Tencent/TurboTransformers) | CPU / Nvidia GPU | PyTorch | [Link](https://github.com/Tencent/TurboTransformers#performance)
 
 `*`: [Conv-BN-Scale-fused](https://github.com/HolmesShuan/Caffe-Computation-Graph-Optimization)
 
