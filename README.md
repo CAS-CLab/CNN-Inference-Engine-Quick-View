@@ -8,6 +8,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 ### FLOAT32-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
+| [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
 | [Paddle-Light](https://github.com/PaddlePaddle/Paddle-Lite) | CPU (**ARM** optimized) / Mali GPU / FPGA / **NPU** | Paddle / Caffe / onnx | Y| [Link](https://paddlepaddle.github.io/Paddle-Lite/develop/benchmark/)
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
 | [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) / Mali GPU | Caffe / pytorch / mxnet / onnx | Y | [3rd party Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [Official Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
@@ -31,12 +32,14 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
 | [ARM32-SGEMM-LIB](https://github.com/JunLee85/ARM32-SGEMM-LIB) | CPU (**ARM** optimized) | GEMM Library  | N | [Link](https://github.com/JunLee85/ARM32-SGEMM-LIB/wiki)
+| [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
 | [Yolov2-Xilinx-PYNQ](https://github.com/dhm2013724/yolov2_xilinx_fpga) | FPGA (Xilinx PYNQ) | Yolov2-only | Y | [Link](https://github.com/dhm2013724/yolov2_xilinx_fpga) 
 
 ### INT8-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
 | [Intel-Caffe](https://github.com/intel/caffe) | CPU (**Intel Skylake**) | Caffe | Y | [Link](https://github.com/intel/caffe/wiki/INTEL%C2%AE-OPTIMIZED-CAFFE-PERFORMANCE-AND-CONVERGENCE)
+| [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
 | [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM**) | Caffe / pytorch / mxnet / onnx | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
 | [Paddle-Light](https://github.com/PaddlePaddle/Paddle-Lite) | CPU (**ARM** optimized) / Mali GPU / FPGA | Paddle / Caffe / onnx | Y| [Link](https://paddlepaddle.github.io/Paddle-Lite/develop/benchmark/)
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
