@@ -15,6 +15,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) / Mali GPU / DSP | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/151820514)
 | [ONNX-Runtime](https://github.com/microsoft/onnxruntime) | CPU / Nvidia GPU | onnx  | Y | -
 | [HiAI](https://developer.huawei.com/consumer/cn/hiai) | Kirin CPU / NPU | Caffe / Tensorflow | Y | -
+| [NNIE](https://github.com/RaySue/NNIE-lite) | NPU | Caffe | Y | [1TOPs](http://www.hisilicon.com/-/media/Hisilicon/pdf/Surveillance_mobilecam/Hi3516DV300.pdf)
 | [Intel-Caffe](https://github.com/intel/caffe) | CPU (**Intel** optimized) | Caffe | Y | [Link](https://github.com/intel/caffe/wiki/INTEL%C2%AE-OPTIMIZED-CAFFE-PERFORMANCE-AND-CONVERGENCE)
 | [FeatherCNN](https://github.com/Tencent/FeatherCNN) | CPU (**ARM** optimized) | Caffe | N | [Link](https://github.com/Tencent/FeatherCNN/wiki/Benchmarks) / [unofficial Link](https://www.zhihu.com/question/276372408)
 | [TEngine](https://github.com/OAID/Tengine) | CPU (**ARM A72** optimized) | Caffe / mxnet  | Y | [Link](https://github.com/OAID/Tengine/blob/master/doc/benchmark.md)
