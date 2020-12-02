@@ -74,6 +74,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | Framework | Main Platform | Model Compatibility | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------:
 | [TurboTransformers](https://github.com/Tencent/TurboTransformers) | CPU / Nvidia GPU | PyTorch | [Link](https://github.com/Tencent/TurboTransformers#performance)
+| [Bolt](https://github.com/huawei-noah/bolt) | CPU / Mali GPU | Caffe / onnx | [Link](https://github.com/huawei-noah/bolt/blob/master/docs/BENCHMARK.md)
 
 `*`: [Conv-BN-Scale-fused](https://github.com/HolmesShuan/Caffe-Computation-Graph-Optimization)
 
