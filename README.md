@@ -8,6 +8,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 ### FLOAT32-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
+| [Bolt](https://github.com/huawei-noah/bolt) | CPU (**ARM** optimized) / x86 / Mali GPU | Caffe / Tensorflow / PyTorch / onnx | Y | [Link](https://github.com/huawei-noah/bolt/blob/master/docs/BENCHMARK.md) 
 | [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
 | [Paddle-Light](https://github.com/PaddlePaddle/Paddle-Lite) | CPU (**ARM** optimized) / Mali GPU / FPGA / **NPU** | Paddle / Caffe / onnx | Y| [Link](https://paddlepaddle.github.io/Paddle-Lite/develop/benchmark/)
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
@@ -32,6 +33,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 ### FIX16-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
+| [Bolt](https://github.com/huawei-noah/bolt) | CPU (**ARM** optimized) / x86 / Mali GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/huawei-noah/bolt/blob/master/docs/BENCHMARK.md) 
 | [ARM32-SGEMM-LIB](https://github.com/JunLee85/ARM32-SGEMM-LIB) | CPU (**ARM** optimized) | GEMM Library  | N | [Link](https://github.com/JunLee85/ARM32-SGEMM-LIB/wiki)
 | [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
 | [Yolov2-Xilinx-PYNQ](https://github.com/dhm2013724/yolov2_xilinx_fpga) | FPGA (Xilinx PYNQ) | Yolov2-only | Y | [Link](https://github.com/dhm2013724/yolov2_xilinx_fpga) 
@@ -39,6 +41,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 ### INT8-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
+| [Bolt](https://github.com/huawei-noah/bolt) | CPU (**ARM** optimized) / x86 / Mali GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/huawei-noah/bolt/blob/master/docs/BENCHMARK.md) 
 | [Intel-Caffe](https://github.com/intel/caffe) | CPU (**Intel Skylake**) | Caffe | Y | [Link](https://github.com/intel/caffe/wiki/INTEL%C2%AE-OPTIMIZED-CAFFE-PERFORMANCE-AND-CONVERGENCE)
 | [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
 | [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM**) | Caffe / pytorch / mxnet / onnx | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
@@ -59,6 +62,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 ### BINARY-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
 | :----------- | :------: | :------------: | :------------: | :------------:
+| [Bolt](https://github.com/huawei-noah/bolt) | CPU (**ARM** optimized) / x86 / Mali GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/huawei-noah/bolt/blob/master/docs/BENCHMARK.md) 
 | [BMXNET](https://github.com/hpi-xnor/BMXNet) | CPU (ARM / x86) / GPU | mxnet | Y | [Link](https://arxiv.org/abs/1705.09864)
 | [DABNN](https://github.com/JDAI-CV/dabnn) | CPU (ARM) | Caffe / Tensorflow / onnx | N | [Link](https://github.com/JDAI-CV/dabnn/blob/master/images/comparison_en.png)
 | [Espresso](https://github.com/fpeder/espresso) | GPU | - | N | [Link](https://arxiv.org/abs/1705.09864)
