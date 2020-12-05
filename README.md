@@ -12,8 +12,10 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
 | [Paddle-Light](https://github.com/PaddlePaddle/Paddle-Lite) | CPU (**ARM** optimized) / Mali GPU / FPGA / **NPU** | Paddle / Caffe / onnx | Y| [Link](https://paddlepaddle.github.io/Paddle-Lite/develop/benchmark/)
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
-| [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) / Mali GPU | Caffe / pytorch / mxnet / onnx | Y | [3rd party Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [Official Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
+| [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) / Mali GPU | Caffe / PyTorch / mxnet / onnx | Y | [3rd party Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [Official Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) / Mali GPU / DSP | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/151820514)
+| [Synet](https://github.com/ermig1979/Synet) | CPU (**ARM** optimized) / x86  | Caffe / PyTorch / Tensorflow / mxnet / onnx  | Y | -
+| [MsnhNet](https://github.com/msnh2012/Msnhnet) | CPU (**ARM** optimized) / Mali GPU / x86 / TensorRT | PyTorch  | Y | [Link](https://github.com/msnh2012/Msnhnet)
 | [ONNX-Runtime](https://github.com/microsoft/onnxruntime) | CPU / Nvidia GPU | onnx  | Y | -
 | [HiAI](https://developer.huawei.com/consumer/cn/hiai) | Kirin CPU / NPU | Caffe / Tensorflow | Y | -
 | [NNIE](https://github.com/RaySue/NNIE-lite) | NPU | Caffe | Y | [1TOPs](http://www.hisilicon.com/-/media/Hisilicon/pdf/Surveillance_mobilecam/Hi3516DV300.pdf)
