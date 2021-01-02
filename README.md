@@ -14,6 +14,8 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
 | [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) / Mali GPU | Caffe / PyTorch / mxnet / onnx | Y | [3rd party Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [Official Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) / Mali GPU / DSP | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/151820514)
+| [TEngine](https://github.com/OAID/Tengine) | CPU (**ARM A72** optimized) | Caffe / mxnet  | Y | [Link](https://github.com/OAID/Tengine/blob/master/doc/benchmark.md)
+| [AutoKernel](https://github.com/OAID/AutoKernel) | CPU / GPU/ NPU | Caffe / mxnet / Tensorflow / PyTorch / Darknet | Y | [Link](https://github.com/OAID/Tengine/blob/master/doc/benchmark.md)
 | [Synet](https://github.com/ermig1979/Synet) | CPU (**ARM** optimized) / x86  | Caffe / PyTorch / Tensorflow / mxnet / onnx  | Y | -
 | [MsnhNet](https://github.com/msnh2012/Msnhnet) | CPU (**ARM** optimized) / Mali GPU / x86 / TensorRT | PyTorch  | Y | [Link](https://github.com/msnh2012/Msnhnet)
 | [ONNX-Runtime](https://github.com/microsoft/onnxruntime) | CPU / Nvidia GPU | onnx  | Y | -
@@ -21,7 +23,6 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [NNIE](https://github.com/RaySue/NNIE-lite) | NPU | Caffe | Y | [1TOPs](http://www.hisilicon.com/-/media/Hisilicon/pdf/Surveillance_mobilecam/Hi3516DV300.pdf)
 | [Intel-Caffe](https://github.com/intel/caffe) | CPU (**Intel** optimized) | Caffe | Y | [Link](https://github.com/intel/caffe/wiki/INTEL%C2%AE-OPTIMIZED-CAFFE-PERFORMANCE-AND-CONVERGENCE)
 | [FeatherCNN](https://github.com/Tencent/FeatherCNN) | CPU (**ARM** optimized) | Caffe | N | [Link](https://github.com/Tencent/FeatherCNN/wiki/Benchmarks) / [unofficial Link](https://www.zhihu.com/question/276372408)
-| [TEngine](https://github.com/OAID/Tengine) | CPU (**ARM A72** optimized) | Caffe / mxnet  | Y | [Link](https://github.com/OAID/Tengine/blob/master/doc/benchmark.md)
 | [Tensorflowlite](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite) | CPU (**Android** optimized) | Caffe2 / Tensorflow / onnx  | Y | [Link](https://www.tensorflow.org/mobile/tflite/performance)
 | [TensorRT](https://devblogs.nvidia.com/tensorrt-3-faster-tensorflow-inference/) | GPU (**Volta** optimized) | Caffe / Tensorflow / onnx  | Y | [Link](http://on-demand.gputechconf.com/gtc-eu/2017/presentation/23425-han-vanholder-efficient-inference-with-tensorrt.pdf)
 | [TVM](https://github.com/dmlc/tvm) | CPU (**ARM** optimized) / Mali GPU / FPGA | onnx  | Y | -
