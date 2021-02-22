@@ -2,8 +2,11 @@
 A quick view of high-performance convolution neural networks (CNNs) inference engines on mobile devices.
 
 ### Runtime-speed Comparisons
-* [Mobile-AI-Benchmarks](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/526762368)
 * [AI-Benchmarks](http://ai-benchmark.com/ranking_detailed.html)
+
+### Data-flow graph optimization
+* [nnfusion](https://github.com/microsoft/nnfusion)
+* [TASO](https://github.com/jiazhihao/TASO)
 
 ### FLOAT32-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
