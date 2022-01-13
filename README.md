@@ -4,9 +4,10 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 ### Runtime-speed Comparisons
 * [AI-Benchmarks](http://ai-benchmark.com/ranking_detailed.html)
 
-### Data-flow graph optimization
+### Data-flow / Graph Optimization
 * [nnfusion](https://github.com/microsoft/nnfusion)
 * [TASO](https://github.com/jiazhihao/TASO)
+* [AMDMIGraphX](https://onnxruntime.ai/docs/execution-providers/MIGraphX-ExecutionProvider.html)
 
 ### FLOAT32-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
@@ -81,6 +82,3 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | :----------- | :------: | :------------: | :------------:
 | [TurboTransformers](https://github.com/Tencent/TurboTransformers) | CPU / Nvidia GPU | PyTorch | [Link](https://github.com/Tencent/TurboTransformers#performance)
 | [Bolt](https://github.com/huawei-noah/bolt) | CPU / Mali GPU | Caffe / onnx | [Link](https://github.com/huawei-noah/bolt/blob/master/docs/BENCHMARK.md)
-
-`*`: [Conv-BN-Scale-fused](https://github.com/HolmesShuan/Caffe-Computation-Graph-Optimization)
-
