@@ -60,6 +60,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [SNPE](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) | DSP (Quantized DLC) | Caffe / Caffe2 / Tensorflow/ onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
 | [MACE](https://github.com/XiaoMi/mace) | CPU (**ARM** optimized) / Mali GPU / DSP | Caffe / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
 | [TF2](https://github.com/TF2-Engine/TF2) | FPGA | Caffe / PyTorch / Tensorflow | Y| [Link](https://github.com/TF2-Engine/TF2#runtime-engine)
+| [TVM](https://github.com/dmlc/tvm) | CPU (**ARM** optimized) / Mali GPU / FPGA | onnx  | Y | [Link](https://github.com/vinx13/tvm-cuda-int8-benchmark)
 
 ### TERNARY-Support
 | Framework | Main Platform | Model Compatibility | Detection-Support | Speed Benchmarks
