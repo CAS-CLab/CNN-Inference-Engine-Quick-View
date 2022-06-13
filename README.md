@@ -14,6 +14,7 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | :----------- | :------: | :------------: | :------------: | :------------:
 | [Bolt](https://github.com/huawei-noah/bolt) | CPU (**ARM** optimized) / x86 / Mali GPU | Caffe / Tensorflow / PyTorch / onnx | Y | [Link](https://github.com/huawei-noah/bolt/blob/master/docs/BENCHMARK.md) 
 | [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
+| [PPLNN](https://github.com/openppl-public/ppl.nn) | CPU (**ARM**/**x86** optimized) / Nvidia GPU | onnx | Y | [Link](https://github.com/openppl-public/ppl.nn/blob/master/docs/en/arm-doc/benchmark_tool.md) / [Link](https://github.com/openppl-public/ppl.nn/blob/master/docs/en/cuda-doc/benchmark_tool.md)
 | [Paddle-Light](https://github.com/PaddlePaddle/Paddle-Lite) | CPU (**ARM** optimized) / Mali GPU / FPGA / **NPU** | Paddle / Caffe / onnx | Y| [Link](https://paddlepaddle.github.io/Paddle-Lite/develop/benchmark/)
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
 | [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) / Mali GPU | Caffe / PyTorch / mxnet / onnx | Y | [3rd party Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978) / [Official Link](https://github.com/Tencent/ncnn/tree/master/benchmark)
@@ -51,10 +52,11 @@ A quick view of high-performance convolution neural networks (CNNs) inference en
 | [Bolt](https://github.com/huawei-noah/bolt) | CPU (**ARM** optimized) / x86 / Mali GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/huawei-noah/bolt/blob/master/docs/BENCHMARK.md) 
 | [Intel-Caffe](https://github.com/intel/caffe) | CPU (**Intel Skylake**) | Caffe | Y | [Link](https://github.com/intel/caffe/wiki/INTEL%C2%AE-OPTIMIZED-CAFFE-PERFORMANCE-AND-CONVERGENCE)
 | [TNN](https://github.com/Tencent/TNN) | CPU (**ARM** optimized) / Mali Adreno Apple GPU | Caffe / Tensorflow / PyTorch | Y | [Link](https://github.com/Tencent/TNN/blob/master/doc/en/development/profiling_en.md) 
-| [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM**) | Caffe / pytorch / mxnet / onnx | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
+| [PPLNN](https://github.com/openppl-public/ppl.nn) |  Nvidia GPU optimized | onnx | Y | [Link](https://github.com/openppl-public/ppl.nn/blob/master/docs/en/cuda-doc/benchmark_tool.md)
+| [NCNN](https://github.com/Tencent/ncnn) | CPU (**ARM** optimized) | Caffe / pytorch / mxnet / onnx | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
 | [Paddle-Light](https://github.com/PaddlePaddle/Paddle-Lite) | CPU (**ARM** optimized) / Mali GPU / FPGA | Paddle / Caffe / onnx | Y| [Link](https://paddlepaddle.github.io/Paddle-Lite/develop/benchmark/)
 | [MNN](https://github.com/alibaba/MNN) | CPU (**ARM** optimized) / Mali GPU | Caffe / Tensorflow / onnx | Y | [Link](https://github.com/alibaba/MNN/blob/master/benchmark/result/2020-3-22.md) 
-| [Tensorflowlite](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite) | CPU (**Android**) | Caffe2 / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
+| [Tensorflowlite](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite) | CPU (**ARM**) | Caffe2 / Tensorflow / onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
 | [TensorRT](https://devblogs.nvidia.com/tensorrt-3-faster-tensorflow-inference/) | GPU (**Volta**) | Caffe / Tensorflow / onnx  | Y | [Link](http://on-demand.gputechconf.com/gtc-eu/2017/presentation/23425-han-vanholder-efficient-inference-with-tensorrt.pdf)
 | [Gemmlowp](https://github.com/google/gemmlowp) | CPU (ARM / x86) | GEMM Library  | - | -
 | [SNPE](https://developer.qualcomm.com/software/qualcomm-neural-processing-sdk) | DSP (Quantized DLC) | Caffe / Caffe2 / Tensorflow/ onnx  | Y | [Link](https://gitlab.com/llhe/mobile-ai-bench/-/jobs/402963978)
